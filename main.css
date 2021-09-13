@@ -1,0 +1,59 @@
+/* Start Global */
+body {
+    background-color: #3a4572;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+/* End Global */
+/* Start Progress Bar */
+.progress {
+    width: 80%;
+    margin: 5% auto;
+    background: white;
+    height: 30px
+}
+.bar {
+    width: 0%;
+    height: 100%;
+    background-color: #f5a623;
+    display: block;
+}
+/* End Progress Bar */
+/* Start Percent */
+.percent {
+    margin: 1% 48%;
+}
+.percent p {
+    font-size: 18px;
+}
+/* End Percent */
+/* Start Episodes */
+.les {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+img {
+    width: 130px;
+    height: 130px;
+}
+.les > div {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+/* End Episodes */
+/* Start Queiries */
+@media screen and (max-width: 600px) {
+    .les {
+        flex-direction: column;
+    }
+    .les > div {
+        flex-basis: 100%;
+    }
+}
+/* End Queiries */
